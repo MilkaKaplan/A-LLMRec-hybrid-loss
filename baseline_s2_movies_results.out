@@ -1,0 +1,100 @@
+A-LLMRec model loss in epoch 10/11 iteration 38855/38892: 0.271205335855484
+A-LLMRec model loss in epoch 10/11 iteration 38856/38892: 0.2802906036376953
+A-LLMRec model loss in epoch 10/11 iteration 38857/38892: 0.14722517132759094
+A-LLMRec model loss in epoch 10/11 iteration 38858/38892: 0.24993246793746948
+A-LLMRec model loss in epoch 10/11 iteration 38859/38892: 0.30706605315208435
+A-LLMRec model loss in epoch 10/11 iteration 38860/38892: 0.36847934126853943
+A-LLMRec model loss in epoch 10/11 iteration 38861/38892: 0.5138309597969055
+A-LLMRec model loss in epoch 10/11 iteration 38862/38892: 0.33730340003967285
+A-LLMRec model loss in epoch 10/11 iteration 38863/38892: 0.22670245170593262
+A-LLMRec model loss in epoch 10/11 iteration 38864/38892: 0.2197391241788864
+A-LLMRec model loss in epoch 10/11 iteration 38865/38892: 0.2940901219844818
+A-LLMRec model loss in epoch 10/11 iteration 38866/38892: 0.09861352294683456
+A-LLMRec model loss in epoch 10/11 iteration 38867/38892: 0.26615914702415466
+A-LLMRec model loss in epoch 10/11 iteration 38868/38892: 0.1916455775499344
+A-LLMRec model loss in epoch 10/11 iteration 38869/38892: 0.34091609716415405
+A-LLMRec model loss in epoch 10/11 iteration 38870/38892: 0.18025799095630646
+A-LLMRec model loss in epoch 10/11 iteration 38871/38892: 0.18375390768051147
+A-LLMRec model loss in epoch 10/11 iteration 38872/38892: 0.034763697534799576
+A-LLMRec model loss in epoch 10/11 iteration 38873/38892: 0.4083532989025116
+A-LLMRec model loss in epoch 10/11 iteration 38874/38892: 0.1885737031698227
+A-LLMRec model loss in epoch 10/11 iteration 38875/38892: 0.07210062444210052
+A-LLMRec model loss in epoch 10/11 iteration 38876/38892: 0.23774778842926025
+A-LLMRec model loss in epoch 10/11 iteration 38877/38892: 0.1382271647453308
+A-LLMRec model loss in epoch 10/11 iteration 38878/38892: 0.2699401378631592
+A-LLMRec model loss in epoch 10/11 iteration 38879/38892: 0.079338937997818
+A-LLMRec model loss in epoch 10/11 iteration 38880/38892: 0.1751544326543808
+A-LLMRec model loss in epoch 10/11 iteration 38881/38892: 0.18218469619750977
+A-LLMRec model loss in epoch 10/11 iteration 38882/38892: 0.3214210271835327
+A-LLMRec model loss in epoch 10/11 iteration 38883/38892: 0.13183169066905975
+A-LLMRec model loss in epoch 10/11 iteration 38884/38892: 0.19142134487628937
+A-LLMRec model loss in epoch 10/11 iteration 38885/38892: 0.22880473732948303
+A-LLMRec model loss in epoch 10/11 iteration 38886/38892: 0.21995049715042114
+A-LLMRec model loss in epoch 10/11 iteration 38887/38892: 0.3179550766944885
+A-LLMRec model loss in epoch 10/11 iteration 38888/38892: 0.24500519037246704
+A-LLMRec model loss in epoch 10/11 iteration 38889/38892: 0.25831952691078186
+A-LLMRec model loss in epoch 10/11 iteration 38890/38892: 0.14901766180992126
+A-LLMRec model loss in epoch 10/11 iteration 38891/38892: 0.3750249445438385
+A-LLMRec model loss in epoch 10/11 iteration 38892/38892: 0.23772914707660675
+phase2 train time : 160265.50593852997
+=== Inference ===
+/home/milkak/.conda/envs/allm_rec/lib/python3.10/site-packages/transformers/utils/generic.py:260: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  torch.utils._pytree._register_pytree_node(
+/home/milkak/.conda/envs/allm_rec/lib/python3.10/site-packages/transformers/utils/generic.py:260: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  torch.utils._pytree._register_pytree_node(
+/home/milkak/A-LLMRec/models/recsys_model.py:20: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  kwargs, checkpoint = torch.load(pth_file_path[0], map_location="cpu")
+/home/milkak/.conda/envs/allm_rec/lib/python3.10/site-packages/transformers/modeling_utils.py:479: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return torch.load(checkpoint_file, map_location=map_location)
+You are resizing the embedding layer without providing a `pad_to_multiple_of` parameter. This means that the new embeding dimension will be 50269. This might induce some performance reduction as *Tensor Cores* will not be available. For more details  about this, or help on choosing the correct value for resizing, refer to this guide: https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html#requirements-tc
+/home/milkak/A-LLMRec/models/a_llmrec_model.py:106: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  mlp = torch.load(out_dir + 'mlp.pt', map_location = args.device)
+/home/milkak/A-LLMRec/models/a_llmrec_model.py:115: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  log_emb_proj_dict = torch.load(out_dir + 'log_proj.pt', map_location = args.device)
+/home/milkak/A-LLMRec/models/a_llmrec_model.py:119: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  item_emb_proj_dict = torch.load(out_dir + 'item_proj.pt', map_location = args.device)
+/home/milkak/A-LLMRec/models/a_llmrec_model.py:392: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+/home/milkak/.conda/envs/allm_rec/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/milkak/.conda/envs/allm_rec/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:322: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+A-LLMRec start inference
+
+user num: 311143 item num: 86678
+average sequence length: 9.35
+Initializing with num_user: 9984
+=== BASELINE FINAL METRICS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14972 14972
+14972
+ndcg at 1: 0.26836761955650545
+hit at 1: 0.26836761955650545
